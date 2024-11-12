@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header,nav,section.paginicial{
+    background-color: #0E0E0C;
+   
+}
+header > img{
+    background-color: burlywood;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 300px;
+    
+}
+.socias > .dif,.redsocias{
+    margin-left: 3.6px;
+}
+.socias > .dif{
+    background-color: burlywood;
+    color: white;
+    padding: 5px;
+}
+.dif:hover{
+    background-color: white;
+    color: burlywood;
+}
+.redsocias{
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 1px solid burlywood;
+}
+nav{
+    padding-top: 25px;
+   
+    padding-left: 60px;
+}
+.navs{
+    padding: 10px 5px;
+    color: burlywood;
+    font-size: 1.1em;
+}
+.navs:hover{
+    color: white;
+}
+section.paginicial{
+    padding-top: 40vh;
+    padding-bottom: 65vh;
+    position: relative;
+    background-image: url(fotos-body/foto1.jpg);
+    background-repeat:no-repeat ;
+   background-position: center center ;
+    background-size: cover;
+    min-width: 300px;
+ 
+}
+.artinicial{
+    position: absolute;
+    transform: translate(-50%,-460%);
+    top: 120%;
+    left: 50%;
+}
+h1#h1pagini{
+    font-size:3em;
+    text-transform: uppercase;
+    color: rgb(107, 70, 22);
+    text-align: center;
+}
+p#pini{
+    text-align: justify;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: rgb(107, 70, 22);
+   width: 400px;
+}
+.paginicial>#buttoninicial{
+    position: relative;
+    color: rgb(107, 70, 22);
+    background-color: burlywood;
+    padding: 10px;
+
+}
+#buttoninicial{
+    position: absolute;
+    transform: translate(-50%,-590%);
+    top: 362%;
+    left: 50%;
+    color: rgb(107, 70, 22);
+    background-color: burlywood;
+    padding: 15px 30px;
+    
+    border-radius: 10px;
+}
+#buttoninicial:hover{
+    background-color: white;
+    color: rgb(107, 70, 22);
+}
+#pagbeneficios{
+    background-image: url(fotos-body/jason-leung-q7ZfVmvB49c-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-width: 300px;
+    background-color:rgb(0, 0, 0) ;
+    padding-top: 30vh;
+    padding-bottom: 40vh;
+    flex-wrap: wrap;
+    display: flex;
+}
+#pagbeneficios>.qsom{
+    min-width: 300px;
+    flex: 1 1 200px;
+    width: 300px;
+    height: 150px;
+    
+    margin: 5px;
+    padding: 10px;
+
+}
+.qsom > h1{
+    padding-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+.qsom > p{
+    color: white;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+#destaquegame{
+    min-width: 350px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ECECEC;
+    justify-content: space-around;
+    padding-right: 10px;
+
+}
+#divimg > img{
+    width: 300px;
+}
+.divgame{
+    padding-top: 5vh;
+}
+.divgame > h1{
+    color: #0E0E0C;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-size: 3em;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  
+}
+
+#pagmoderno{
+    min-width: 300px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #AD9386;
+    display: flex;
+    flex-wrap: wrap ;
+    flex: 1 1 200px;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+#imgmoder > img{
+    width: 300px;
+}
+#pagmoderno > h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 200px;  
+}
+#depoimentos{
+    padding-top: 4vh;
+    padding-bottom: 20vh;
+    background-color: #E3CBAA;
+    min-width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+}
+#depoimentos > .depo{
+    min-width: 300px;
+    flex: 1 1 200px;
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+#titdepo{
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    background-color: #E3CBAA;
+}
+#titdepo > #titulodepo{
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+}
+.depo > p{
+   width: 300px;
+   padding: 10px;
+    font-size: 1.5em; 
+    text-transform: capitalize;
+    color: white;
+}
+#email{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #2D2D2D;
+    min-width: 300px;
+    
+}
+#email>#paremail{
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  
+}
+#email>p>input{
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 4px solid black;
+}
+#email>p>input:hover{
+    border: 4px solid #AD9386;
+}
+#email >p> #butemail{
+    text-decoration: none;
+    background-color: #AD9386;
+    padding: 5px;
+    color: white;
+}
+#email>p>#butemail:hover{
+    background-color: white;
+    color: #AD9386;
+}
+#rodape{
+    padding-top: 10vh;
+    padding-bottom: 30vh;
+    background-color: #ECECEC;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    min-width: 300px;
+}
+#rodape > #boxrodape{
+    flex: 1 1 100px;
+}
+#boxrodape{
+    max-width: 400px;
+    text-align: center;
+}
+#boxrodape > .rodP > a{
+    text-decoration: none;
+    color: #0E0E0C;
+    text-align: center;
+    text-transform: uppercase;
+}
+#boxrodape > .rodP > a:hover{
+    color: #AD9386;
+}
+#boxrodape > .rodP{
+    padding: 2.5px;
+    
+}
